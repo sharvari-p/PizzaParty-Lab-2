@@ -46,8 +46,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     /**
-     * Called when user click calculate button to calculate total pizza,
-     * call PizzaCalculator object to get the number of pizza required.
+     * This is called when the button to calculate total pizzas is clicked
+     * calls PizzaCalculator object to get the number of pizza required.
      */
     fun calculateClick(view: View) {
 
@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity() {
         // Convert the text into an integer
         val numAttend = numAttendStr.toIntOrNull() ?: 0
 
-        // Get hunger level selection
+        // Get hunger level
         val hungerLevel = when (howHungryRadioGroup.getCheckedRadioButtonId()) {
             R.id.light_radio_button -> PizzaCalculator.HungerLevel.LIGHT
             R.id.medium_radio_button -> PizzaCalculator.HungerLevel.MEDIUM

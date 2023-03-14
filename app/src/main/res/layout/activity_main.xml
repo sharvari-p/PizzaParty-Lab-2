@@ -8,6 +8,7 @@
     android:background="@drawable/pizza_background"
     tools:context="com.example.pizzaparty.MainActivity">
 
+
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
@@ -41,7 +42,7 @@
         android:layout_marginTop="21dp"
         android:labelFor="@id/hungry_radio_group"
         android:text="@string/how_hungry"
-        android:textSize="24sp"
+        android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/num_attend_edit_text" />
 
@@ -80,7 +81,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="@string/total_pizzas"
-        android:textSize="24sp"
+        android:textSize="30sp"
         app:layout_constraintStart_toStartOf="@id/hungry_radio_group"
         app:layout_constraintTop_toBottomOf="@id/hungry_radio_group" />
 
